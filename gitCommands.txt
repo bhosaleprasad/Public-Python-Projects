@@ -1,0 +1,7 @@
+git config --global user.name <userName>
+
+git config --global user.email <userEmail>
+
+git init
+
+git add <name of file>
