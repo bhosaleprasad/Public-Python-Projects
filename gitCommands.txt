@@ -10,4 +10,4 @@ git add -A <------ to add file for tracking in single go
 
 git commit -m <"message"> <----------- initial commit need to do fisrt time
 
-admbasdasbdasbdk
+git status <---- shows status 
