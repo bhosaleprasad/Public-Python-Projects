@@ -1,24 +1,29 @@
-git config --global user.name <userName>  <----- set user name
+1.git config --global user.name <userName>  <----- set user name
  
-git config --global user.email <userEmail> <----- set email id
+2.git config --global user.email <userEmail> <----- set email id
 
-git init <----- to set repository first time
+3.git init <----- to set repository first time
 
-git add <name of file><----- to track files in staged area
-or
-git add -A <------ to add file for tracking in single go
+4.git add <name of file><----- to track files in staged area
+    or
+   git add -A <------ to add file for tracking in single go
 
-git commit -m <"message"> <----------- initial commit need to do fisrt time
+5.git commit -m <"message"> <----------- initial commit need to do fisrt time
 
-git status <---- shows status 
+6.git status <---- shows status 
 
-git diff <----- compare and show differnce between modified and staged file
+7.git diff <----- compare and show differnce between modified and staged file
 
-git commit -a -m <"message"> <-- you can skip staged area and directly commit(NOT GOOD)
+8.git commit -a -m <"message"> <-- you can skip staged area and directly commit(NOT GOOD)
 
+9.touch <filename.extenation><---- to add empty file in repo
 
-touch <filename.extenation><---- to add empty file in repo
+10.git rm --cached <filename.extension> <--- remove file from tracking/staged area but keep in HDD
 
-git rm --cached <filename.extension> <--- remove file from tracking/staged area but keep in HDD
+11.git rm <filename.extension> <---- delete file from stage/tracking area and from HDD too
 
-git rm <filename.extension> <---- delete file from stage/tracking area and from HDD too
+12. git log <---- show whole committed log entries
+	or
+       git log -p -2 <---- show only two last commited entries you can change the number
+
+13.git status -s <--- this show which files are modified and which are not
