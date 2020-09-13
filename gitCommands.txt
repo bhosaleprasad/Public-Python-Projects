@@ -1,7 +1,13 @@
-git config --global user.name <userName>
+git config --global user.name <userName>  <----- set user name
+ 
+git config --global user.email <userEmail> <----- set email id
 
-git config --global user.email <userEmail>
+git init <----- to set repository first time
 
-git init
+git add <name of file><----- to track files
+or
+git add -A <------ to add file for tracking in single go
 
-git add <name of file>
+git commit -m <"message"> <----------- initial commit need to do fisrt time
+
+admbasdasbdasbdk
