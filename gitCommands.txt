@@ -4,10 +4,14 @@ git config --global user.email <userEmail> <----- set email id
 
 git init <----- to set repository first time
 
-git add <name of file><----- to track files
+git add <name of file><----- to track files in staged area
 or
 git add -A <------ to add file for tracking in single go
 
 git commit -m <"message"> <----------- initial commit need to do fisrt time
 
 git status <---- shows status 
+
+git diff <----- compare and show differnce between modified and staged file
+
+git commit -a -m <"message"> <-- you can skip staged area and directly commit(NOT GOOD)
