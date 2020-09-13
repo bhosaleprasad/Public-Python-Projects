@@ -15,3 +15,10 @@ git status <---- shows status
 git diff <----- compare and show differnce between modified and staged file
 
 git commit -a -m <"message"> <-- you can skip staged area and directly commit(NOT GOOD)
+
+
+touch <filename.extenation><---- to add empty file in repo
+
+git rm --cached <filename.extension> <--- remove file from tracking/staged area but keep in HDD
+
+git rm <filename.extension> <---- delete file from stage/tracking area and from HDD too
