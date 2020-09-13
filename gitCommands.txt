@@ -27,3 +27,5 @@
        git log -p -2 <---- show only two last commited entries you can change the number
 
 13.git status -s <--- this show which files are modified and which are not
+
+14.
